@@ -1,4 +1,4 @@
-#!/bin/bash
+g#!/bin/bash
 perform_backup() {
 mkdir backup
 cd backup
@@ -9,10 +9,6 @@ echo "Backup complete!"
 
 
 monstrar_mensaje () {
-mkdir backup
-cd backup
-cp –r ${1} .
-tar –czvf backup.tar.gz *
 echo "he entrado en el bloque de la función"
 }
 #A better approach is to use functions
